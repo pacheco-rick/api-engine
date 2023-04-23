@@ -4,6 +4,7 @@ const userRoute = require('./user.route');
 const docsRoute = require('./docs.route');
 const healthRoutes = require('./health.route');
 const tagRoutes = require('./tag.route');
+const taskRoutes = require('./task.route');
 const config = require('../../config/config');
 
 const router = express.Router();
@@ -24,6 +25,10 @@ const defaultRoutes = [
   {
     path: '/tags',
     route: tagRoutes,
+  },
+  {
+    path: '/tasks',
+    route: taskRoutes,
   },
 ];
 
