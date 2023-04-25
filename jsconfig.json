@@ -1,0 +1,10 @@
+{
+    "compilerOptions": {
+      "baseUrl": "./",
+      "paths": {
+        "@app/*": ["src/app"],
+        "@routes/*": ["./path/to/routes/*"],
+        "@utils/*": ["./path/to/utils/*"]
+      }
+    }
+  }
