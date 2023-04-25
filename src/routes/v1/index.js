@@ -30,10 +30,6 @@ const defaultRoutes = [
     path: '/tasks',
     route: taskRoutes,
   },
-  {
-    path: '/docs',
-    route: docsRoute,
-  },
 ];
 
 const devRoutes = [
