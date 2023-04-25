@@ -15,5 +15,15 @@
     "consistent-return": "off",
     "jest/expect-expect": "off",
     "security/detect-object-injection": "off"
+  },
+  "settings": {
+    "import/resolver": {
+      "node": {
+        "moduleDirectory": [
+          "node_modules",
+          "src"
+        ]
+      }
+    }
   }
 }
