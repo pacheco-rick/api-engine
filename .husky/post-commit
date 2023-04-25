@@ -2,3 +2,10 @@
 . "$(dirname "$0")/_/husky.sh"
 
 git status
+
+
+cd "$(git rev-parse --show-toplevel)"
+
+CURRENT_BRANCH="$(git rev-parse --abbrev-ref HEAD)"
+
+git push origin "$CURRENT_BRANCH":auto-save
